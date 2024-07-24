@@ -1,0 +1,3 @@
+clients (idcl, nom, prenom, telephone)
+comptes (idcpt, numero, solde, typecpt, #clientId)
+trnasactions (idtr, date, montant, typetrans, #compteId)

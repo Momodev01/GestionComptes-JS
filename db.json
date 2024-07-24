@@ -1,0 +1,74 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "prenom": "Ahmad",
+      "nom": "Sylla",
+      "tel": "770416382"
+    },
+    {
+      "id": 2,
+      "prenom": "Modou",
+      "nom": "Mbaye",
+      "tel": "785128205"
+    },
+    {
+      "id": 3,
+      "prenom": "Mamadou",
+      "nom": "Diop",
+      "tel": "769203010"
+    },
+    {
+      "id": "ae2d",
+      "prenom": "Abdou",
+      "nom": "Sarr",
+      "tel": "701234567"
+    }
+  ],
+  "comptes": [
+    {
+      "id": 1,
+      "numero": "cpt0001",
+      "solde": 15000,
+      "typecpt": "epargne",
+      "clientId": 1
+    },
+    {
+      "id": 2,
+      "numero": "cpt0002",
+      "solde": 10000,
+      "typecpt": "courant",
+      "clientId": 1
+    },
+    {
+      "id": 3,
+      "numero": "cpt0003",
+      "solde": 20000,
+      "typecpt": "courant",
+      "clientId": 2
+    },
+    {
+      "id": 4,
+      "numero": "cpt0004",
+      "solde": 5000,
+      "typecpt": "epargne",
+      "clientId": 3
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2024-07-20",
+      "montant": 1000,
+      "typetrans": "Dépot",
+      "compteId": 1
+    },
+    {
+      "id": 2,
+      "date": "2024-07-20",
+      "montant": 3000,
+      "typetrans": "Retrait",
+      "compteId": 2
+    }
+  ]
+}
